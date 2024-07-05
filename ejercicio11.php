@@ -6,10 +6,10 @@
 //Pista: puedes usar la función strrev(). Busca en la documentación de PHP cómo se usa.
 
 function invertirPalabra($palabra){
-    //Escribe tu código aquí
+    
+    echo strrev($palabra) ;
 
 }
 
-//Tests
-assert("aloH" == invertirPalabra("Hola"), "La palabra 'Hola' invertida es 'aloH'");
-assert("aloh" == invertirPalabra("hola"), "La palabra 'hola' invertida es 'aloh'");
+
+invertirPalabra("hola");

@@ -4,7 +4,8 @@
 // Complejidad: MEDIA (2 puntos)
 
 function encontrarMaximo($numeros){
-    //Escribe tu código aquí
+    return max($numeros);
+    
 
 }
 

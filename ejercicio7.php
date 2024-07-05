@@ -5,7 +5,9 @@
 // Complejidad: MEDIA (2 puntos)
 
 function ordenarArreglo($numeros){
-    //Escribe tu código aquí
+
+    return rsort($numeros);
+
 
 }
 
